@@ -1,6 +1,15 @@
 # Multiple-Floor-Navigation-Robot
 A comprehensive repository with programs, tools, and documentation for autonomous navigation in multi-floor environments. Includes floor mapping, localization, path planning, obstacle avoidance, Camera Sensing, and more. Enhance robots' seamless multi-floor navigation by automatically updating floor maps. Ideal for buildings, hospitals, and more.
 
+## Table of Contents
+* [Robot in Multiple Floor Environment](#robot-in-multiple-floor-environment)
+* [Required Tools](#RequiredTools)
+* [Folders and Files in multi_nav](#FoldersandFilesinmulti_nav)
+* [Prerequisite Commands to load turtlebot3_waffle](#PrerequisiteCommandstoloadturtlebot3_waffle)
+* [Commands to Run the Simulation](#CommandstoRuntheSimulation)
+* [Simulation Video](#SimulationVideo)
+* [Applications](#Applications)
+  
 ### Robot in Multiple Floor Environment:-
 ![image](https://github.com/Sivaramasaran2773/Multiple-Floor-Navigation-Robot/assets/96780921/887e9158-5fa2-447f-899d-71ccbfe0fbc8)
 
