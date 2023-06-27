@@ -1,9 +1,15 @@
 # Multiple-Floor-Navigation-Robot
 A comprehensive repository with programs, tools, and documentation for autonomous navigation in multi-floor environments. Includes floor mapping, localization, path planning, obstacle avoidance, Camera Sensing, and more. Enhance robots' seamless multi-floor navigation by automatically updating floor maps. Ideal for buildings, hospitals, and more.
 
+### Required Tools
+* Gazebo 
+* RViz
+* SLAM Toolbox
+* Nav2
 
-### multi_nav
+### Folders and Files in multi_nav
 ```
+┣ 📂multi_nav
    ┣ 📂launch
    ┃ ┗ 📜bringup_launch.py
    ┃ ┗ 📜gz_respawner_stage1.py
@@ -41,3 +47,17 @@ A comprehensive repository with programs, tools, and documentation for autonomou
    ┣ 📜CmakeLists.txt
    ┣ 📜package.xml
 ```  
+
+### Commands to Run the Simulation
+1. To Launch the turtlebot3_waffle in our multiple floor world.
+
+<code> ros2 launch multi_nav tb3_gazebo_stage1.py headless:=False </code> 
+
+2. To Load our created maps using slam toolbox into RViz.
+
+<code> ros2 launch multi_nav multi_floor_navigation.py </code> 
+
+4. To Navigate the simulation of our robot between multiple floors.
+   In the directory of the scripts folder:
+
+<code> python3 floor1_2_3 </code> 
