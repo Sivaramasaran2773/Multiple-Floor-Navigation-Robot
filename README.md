@@ -4,9 +4,6 @@ A comprehensive repository with programs, tools, and documentation for autonomou
 ### Robot in Multiple Floor Environment:-
 ![image](https://github.com/Sivaramasaran2773/Multiple-Floor-Navigation-Robot/assets/96780921/887e9158-5fa2-447f-899d-71ccbfe0fbc8)
 
-### Simulation Video:
-[![YouTube Video](http://img.youtube.com/vi/NpObE61ZL6o/0.jpg)](https://youtu.be/NpObE61ZL6o)
-
 ### Required Tools
 * Gazebo 
 * RViz
@@ -74,3 +71,10 @@ A comprehensive repository with programs, tools, and documentation for autonomou
    In the directory of the scripts folder:
 
 <code> python3 floor1_2_3 </code> 
+
+### Simulation Video:
+[![YouTube Video](http://img.youtube.com/vi/NpObE61ZL6o/0.jpg)](https://youtu.be/NpObE61ZL6o)
+
+### Applications:
+![image](https://github.com/Sivaramasaran2773/Multiple-Floor-Navigation-Robot/assets/96780921/d56f7b50-3ebd-4b3e-ae3a-512b3065a312)
+
