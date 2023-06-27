@@ -1,6 +1,12 @@
 # Multiple-Floor-Navigation-Robot
 A comprehensive repository with programs, tools, and documentation for autonomous navigation in multi-floor environments. Includes floor mapping, localization, path planning, obstacle avoidance, Camera Sensing, and more. Enhance robots' seamless multi-floor navigation by automatically updating floor maps. Ideal for buildings, hospitals, and more.
 
+### Robot in Multiple Floor Environment:-
+![image](https://github.com/Sivaramasaran2773/Multiple-Floor-Navigation-Robot/assets/96780921/887e9158-5fa2-447f-899d-71ccbfe0fbc8)
+
+### Simulation Video:
+[![YouTube Video](http://img.youtube.com/vi/NpObE61ZL6o/0.jpg)](https://youtu.be/NpObE61ZL6o)
+
 ### Required Tools
 * Gazebo 
 * RViz
@@ -46,9 +52,16 @@ A comprehensive repository with programs, tools, and documentation for autonomou
    ┃ ┗ 📜floor3.world                            
    ┣ 📜CmakeLists.txt
    ┣ 📜package.xml
-```  
+```
 
-### Commands to Run the Simulation
+### Prerequisite Commands to load turtlebot3_waffle:-
+
+<code> echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc </code>
+
+
+<code> echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models:$HOME/colcon_ws/src/kimm_multi_floor_gazebo/worlds" >> ~/.bashrc </code>
+
+### Commands to Run the Simulation:-
 1. To Launch the turtlebot3_waffle in our multiple floor world.
 
 <code> ros2 launch multi_nav tb3_gazebo_stage1.py headless:=False </code> 
