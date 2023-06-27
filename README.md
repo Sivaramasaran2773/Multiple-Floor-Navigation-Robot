@@ -65,7 +65,7 @@ A comprehensive repository with programs, tools, and documentation for autonomou
 <code> echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc </code>
 
 
-<code> echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models:$HOME/colcon_ws/src/kimm_multi_floor_gazebo/worlds" >> ~/.bashrc </code>
+<code> echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models:$HOME/sun_ws/src/multi_nav/worlds" >> ~/.bashrc </code>
 
 ### Commands to Run the Simulation:-
 1. To Launch the turtlebot3_waffle in our multiple floor world.
