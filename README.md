@@ -2,13 +2,15 @@
 A comprehensive repository with programs, tools, and documentation for autonomous navigation in multi-floor environments. Includes floor mapping, localization, path planning, obstacle avoidance, Camera Sensing, and more. Enhance robots' seamless multi-floor navigation by automatically updating floor maps. Ideal for buildings, hospitals, and more.
 
 ## Table of Contents
-* [Robot in Multiple Floor Environment](#robot-in-multiple-floor-environment)
-* [Required Tools](#RequiredTools)
-* [Folders and Files in multi_nav](#FoldersandFilesinmulti_nav)
-* [Prerequisite Commands to load turtlebot3_waffle](#PrerequisiteCommandstoloadturtlebot3_waffle)
-* [Commands to Run the Simulation](#CommandstoRuntheSimulation)
-* [Simulation Video](#SimulationVideo)
-* [Applications](#Applications)
+* [Robot in Multiple Floor Environment](###robot-in-multiple-floor-environment)
+* [Required Tools](###RequiredTools)
+* [Folders and Files in multi_nav](###FoldersandFilesinmulti_nav)
+* [Solution Architecture](###Solution_Architecture)
+* [Prerequisite Commands to load turtlebot3_waffle](###PrerequisiteCommandstoloadturtlebot3_waffle)
+* [Commands to Run the Simulation](###CommandstoRuntheSimulation)
+* [Python script Explanation](###PythonscriptExplanation)
+* [Simulation Video](###SimulationVideo)
+* [Applications](###Applications)
   
 ### Robot in Multiple Floor Environment:-
 ![image](https://github.com/Sivaramasaran2773/Multiple-Floor-Navigation-Robot/assets/96780921/887e9158-5fa2-447f-899d-71ccbfe0fbc8)
@@ -59,6 +61,9 @@ A comprehensive repository with programs, tools, and documentation for autonomou
    ┣ 📜CmakeLists.txt
    ┣ 📜package.xml
 ```
+### Solution Architecture:
+![image](https://github.com/Sivaramasaran2773/Multiple-Floor-Navigation-Robot/assets/96780921/5817f82c-44ec-402e-b543-33685d09f6e1)
+
 
 ### Prerequisite Commands to load turtlebot3_waffle:-
 
@@ -80,6 +85,9 @@ A comprehensive repository with programs, tools, and documentation for autonomou
    In the directory of the scripts folder:
 
 <code> python3 floor1_2_3 </code> 
+
+### Python Script Explanation:
+![image](https://github.com/Sivaramasaran2773/Multiple-Floor-Navigation-Robot/assets/96780921/3d52f172-cc7f-4c33-beda-3c1c435fca18)
 
 ### Simulation Video:
 [![YouTube Video](http://img.youtube.com/vi/NpObE61ZL6o/0.jpg)](https://youtu.be/NpObE61ZL6o)
